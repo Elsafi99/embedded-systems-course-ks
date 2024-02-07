@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MULT_TWO_FLOAT_NUM/src/MULTTWOINTEGERS.c&apos; to &apos;Mult_Two_Float.c&apos;" description="Rename resource &apos;MULTTWOINTEGERS.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/MULTTWOINTEGERS.c" name="Mult_Two_Float.c" stamp="1707239784826" updateReferences="true"/>
+</session>

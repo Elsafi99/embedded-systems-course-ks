@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : SUM_NATURAL_NUM.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("SUM NATURAL NUMBERS"); /* prints SUM NATURAL NUMBERS */
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : Print_integer
+ Author      : ELSAFI
+ Version     : 0.0
+ Copyright   : Your copyright notice
+ Description : Print  " integer input by the user "
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+	int num=0;
+
+	printf("\r\n enter the integer number=");
+
+
+	return 0;
+}

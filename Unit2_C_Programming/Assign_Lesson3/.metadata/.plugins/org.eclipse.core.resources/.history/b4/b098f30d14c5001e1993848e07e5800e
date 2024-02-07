@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : Mult_two_float.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Write C Program to Multiply two Floating Point Numbers
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	    float num1=0.0;
+		float num2=0.0;
+		float mult=0.0;
+
+		printf(" Enter Two Float Numbers = ");
+		fflush(stdin);fflush(stdout);
+		scanf("%0.1f %0.1f",&num1,&num2);
+		mult=num1*num2;
+		printf("\r\n Product=%0.6f",mult);
+		return EXIT_SUCCESS;
+}

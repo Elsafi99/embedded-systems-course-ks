@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : SWAPPING_M_2.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("swapping without temp_var"); /* prints swapping without temp_var */
+	return EXIT_SUCCESS;
+}

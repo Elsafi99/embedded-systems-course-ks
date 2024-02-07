@@ -1,0 +1,7 @@
+18:31:35 **** Incremental Build of configuration Debug for project Print_Sentence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Print_Sentence.o" "..\\src\\Print_Sentence.c" 
+gcc -o Print_Sentence.exe "src\\Print_Sentence.o" 
+
+18:31:36 Build Finished (took 913ms)
+

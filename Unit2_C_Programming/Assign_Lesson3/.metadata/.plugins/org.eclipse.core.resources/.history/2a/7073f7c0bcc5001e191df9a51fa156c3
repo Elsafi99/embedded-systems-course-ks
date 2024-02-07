@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : Vowel_Cons_Check.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : check character is vowel or consonants
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+    int a=0;
+
+    //get a , b values
+	printf(" Enter An Integer You Want To Check= ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&a);
+
+
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,9 @@
+14:26:57 **** Incremental Build of configuration Debug for project FindASCII ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o FindASCII.o "..\\FindASCII.c" 
+gcc -o FindASCII.exe FindASCII.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file FindASCII.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+14:26:58 Build Finished (took 632ms)
+

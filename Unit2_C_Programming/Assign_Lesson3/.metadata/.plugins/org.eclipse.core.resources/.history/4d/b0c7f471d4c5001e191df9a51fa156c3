@@ -1,0 +1,46 @@
+/*
+ ============================================================================
+ Name        : calculator.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+ char operator='0';
+ float operand1=0;
+ float operand2=0;
+ float result=0;
+ //get operation  values
+ printf("\r\n Enter Operator either + , - , * ,divide : ");
+ fflush(stdin);fflush(stdout);
+ scanf("%c",&operator);
+ printf("\r\n Enter Two Operands:");
+ fflush(stdin);fflush(stdout);
+ scanf("%f %f",&operand1,&operand2);
+
+ switch(operator){
+ case '+':
+	 result=operand1+operand2;
+	 printf("\r\n Result=%2.1f + %2.1f=%2.1f",operand1,operand2,result);break;
+ case '-':
+	 result=operand1-operand2;
+	 printf("\r\n Result=%2.1f - %2.1f=%2.1f",operand1,operand2,result);break;
+ case '*':
+	 result=operand1*operand2;
+	 printf("\r\n Result=%2.1f * %2.1f=%2.1f",operand1,operand2,result);break;
+ case '/':
+	 result=operand1/operand2;
+	 printf("\r\n Result=%2.1f / %2.1f=%2.1f",operand1,operand2,result);break;
+ default:
+	 printf("\r\n Error Operator !!:");
+ }
+
+   return EXIT_SUCCESS;
+}

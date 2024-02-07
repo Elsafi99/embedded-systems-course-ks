@@ -1,0 +1,44 @@
+/*
+ ============================================================================
+ Name        : Vowel_Cons_Check.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : check character is vowel or consonants
+ ============================================================================
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+    char a=0;
+    //get a values
+	printf(" Enter an Alphabet= ");
+	fflush(stdin);fflush(stdout);
+	scanf("%c",&a);
+	switch(a){
+	   case 'a':
+		        printf(" %c is a Vowel. ",a);break;
+	   case 'i':
+		        printf(" %c is a Vowel. ",a);break;
+	   case 'o':
+		        printf(" %c is a Vowel. ",a);break;
+	   case 'e':
+		        printf(" %c is a Vowel. ",a);break;
+	   case 'u':
+		        printf(" %c is a Vowel. ",a);break;
+	   case 'A':
+		        printf(" %c is a Vowel. ",a);break;
+	   case 'E':
+		        printf(" %c is a Vowel. ",a);break;
+	   case 'O':
+		        printf(" %c is a Vowel. ",a);break;
+	   case 'I':
+		        printf(" %c is a Vowel. ",a);break;
+	   case 'U':
+		        printf(" %c is a Vowel. ",a);break;
+	   default:
+		       printf(" %c is a Consonant. ",a);break;
+	}
+	return EXIT_SUCCESS;
+}

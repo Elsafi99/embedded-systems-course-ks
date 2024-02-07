@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : Find_Large_Num.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("find largest number"); /* prints find largest number */
+	return EXIT_SUCCESS;
+}

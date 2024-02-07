@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : Vowel_Cons_Check.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("check_vowel_consonants "); /* prints check_vowel_consonants  */
+	return EXIT_SUCCESS;
+}

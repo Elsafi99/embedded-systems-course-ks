@@ -1,0 +1,22 @@
+/*
+ * FindASCII.c
+ *
+ *
+ *      Author: ELSAFI
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	    char Ascii='0';
+
+		printf(" Enter Character = ");
+		fflush(stdin);fflush(stdout);
+		scanf("%c ",&Ascii);
+
+		printf("\r\n Product=%f",Ascii);
+		return EXIT_SUCCESS;
+}
+

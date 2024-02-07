@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : check_positive_negative_num.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	  float a=0;
+	    //get a  values
+		printf(" Enter a Number= ");
+		fflush(stdin);fflush(stdout);
+		scanf("%f",&a);
+
+	    if(a>b){
+	    	if(a>c){
+	    		printf("%4.2f is Positive",a);
+	    	}
+	    }
+	    else if(b>c){
+	    	printf("%4.2f is Negative",a);
+	    }
+	    else{
+	    	printf("%4.2f is Zero ",a);
+	    }
+
+	    return EXIT_SUCCESS;
+}
