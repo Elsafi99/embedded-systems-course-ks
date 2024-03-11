@@ -1,0 +1,19 @@
+/*
+ ============================================================================
+ Name        : averagearray.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : get average f
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+
+
+	return EXIT_SUCCESS;
+}

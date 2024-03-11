@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;find the frequency in string/src/find the frequency in a string.c&apos;" deleteContents="false" description="Delete resource &apos;find the frequency in string/src/find the frequency in a string.c&apos;" element1="/find the frequency in string/src/find the frequency in a string.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1710185819399"/>
+</session>

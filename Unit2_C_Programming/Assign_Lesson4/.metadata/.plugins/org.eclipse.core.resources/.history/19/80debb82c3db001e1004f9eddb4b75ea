@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : transpose2dArray.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("transpose array "); /* prints transpose array  */
+	return EXIT_SUCCESS;
+}

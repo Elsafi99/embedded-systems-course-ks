@@ -1,0 +1,56 @@
+/*
+ ============================================================================
+ Name        : sum2d.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(void) {
+
+	float matrix1[2][2]={0};
+	float matrix2[2][2]={0};
+	float sum_matrix[2][2]={0};
+	int index_r=0,index_c=0,row=2,coloumn=2;
+
+
+	printf("\n\rEnter the elements of the matrix1: ");
+//get matrix1 ::-
+	for(index_r=0;index_r<row;index_r++){
+		for(index_c=0;index_c<coloumn;index_c++){
+			printf("\n\rEnter the elements m%d%d=",index_r,index_c);
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%f",&matrix1[index_r][index_c]);
+		}
+	}
+	printf("\n\rEnter the elements of the matrix2: ");
+//get matrix2 ::-
+	for(index_r=0;index_r<row;index_r++){
+		for(index_c=0;index_c<coloumn;index_c++){
+			printf("\n\rEnter the elements m%d%d=",index_r,index_c);
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%f",&matrix2[index_r][index_c]);
+		}
+	}
+//summation 2 matrix
+	for(index_r=0;index_r<row;index_r++){
+		for(index_c=0;index_c<coloumn;index_c++){
+			sum_matrix[index_r][index_c]=matrix2[index_r][index_c]+matrix1[index_r][index_c];
+		}
+	}
+
+//display the summation of the 2 matrix
+	for(index_r=0;index_r<row;index_r++){
+		for(index_c=0;index_c<coloumn;index_c++){
+	           printf("%.2f\t",sum_matrix[index_r][index_c]);
+		}
+		printf("\n");
+	}
+	return EXIT_SUCCESS;
+}

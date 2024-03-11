@@ -1,0 +1,63 @@
+/*
+ ============================================================================
+ Name        : sum2d.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(void) {
+
+	float matrix1[2][2]={0};
+	float matrix2[2][2]={0};
+	float sum_matrix[2][2]={0};
+	int index_r=0,index_c=0,row=0,coloumn=0;
+
+
+	printf("\n\rEnter the elements of the matrix1: ");
+//get matrix1 ::-
+	for(index_r=0;index_r<row;index_r++){
+		for(index_c=0;index_c<coloumn;index_c++){
+			printf("\n\rEnter the elements m%d%d=",index_r,index_c);
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%f",&matrix1[index_r][index_c]);
+		}
+	}
+//get matrix2 ::-
+	for(index_r=0;index_r<row;index_r++){
+		for(index_c=0;index_c<coloumn;index_c++){
+			printf("\n\rEnter the elements m%d%d=",index_r,index_c);
+			fflush(stdin);
+			fflush(stdout);
+			scanf("%f",&matrix2[index_r][index_c]);
+		}
+	}
+//display matrix
+	printf("\n\rThe entered matrix: \n");
+	for(index_r=0;index_r<row;index_r++){
+		for(index_c=0;index_c<coloumn;index_c++){
+            printf("%.2f\t",matrix[index_r][index_c]);
+		}
+		printf("\n");
+	}
+//transpose the matrix
+	printf("\n\rThe Transpose of the matrix: \n");
+	for(index_r=0;index_r<row;index_r++){
+		for(index_c=0;index_c<coloumn;index_c++){
+			tr_matrix[index_c][index_r]=matrix[index_r][index_c];
+		}
+	}
+//display the transpose of the matrix
+	for(index_r=0;index_r<coloumn;index_r++){
+		for(index_c=0;index_c<row;index_c++){
+	           printf("%.2f\t",tr_matrix[index_r][index_c]);
+		}
+		printf("\n");
+	}
+	return EXIT_SUCCESS;
+}

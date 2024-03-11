@@ -1,0 +1,6 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:averagearray.exe,org.eclipse.launchbar.core.descriptorType.default\:transpose2dArray.exe,org.eclipse.launchbar.core.descriptorType.default\:sum2d array.exe,org.eclipse.launchbar.core.descriptorType.default\:insert_element_in_array.exe,org.eclipse.launchbar.core.descriptorType.default\:search_array.exe,org.eclipse.launchbar.core.descriptorType.default\:find_string_length.exe,org.eclipse.launchbar.core.descriptorType.default\:find the frequency in string.exe,org.eclipse.launchbar.core.descriptorType.default\:revers the string.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:averagearray.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:averagearray.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,51 @@
+22:24:20 **** Clean-only build of configuration Debug for project find_string_length ****
+rm -rf find_string_length.exe src/find_string_length.d src/find_string_length.o 
+rm: cannot remove `find_string_length.exe': Permission denied
+22:24:28 **** Rebuild of configuration Debug for project find_string_length ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\find_string_length.o" "..\\src\\find_string_length.c" 
+..\src\find_string_length.c: In function 'main':
+..\src\find_string_length.c:16:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[100]' [-Wformat=]
+   16 |     scanf("%s",&str);
+      |            ~^  ~~~~
+      |             |  |
+      |             |  char (*)[100]
+      |             char *
+gcc -o find_string_length.exe "src\\find_string_length.o" 
+22:25:09 **** Incremental Build of configuration Debug for project find_string_length ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\find_string_length.o" "..\\src\\find_string_length.c" 
+gcc -o find_string_length.exe "src\\find_string_length.o" 
+Info: Nothing to build for find_string_length
+Info: Nothing to build for find_string_length
+22:27:00 **** Incremental Build of configuration Debug for project find_string_length ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\find_string_length.o" "..\\src\\find_string_length.c" 
+gcc -o find_string_length.exe "src\\find_string_length.o" 
+Info: Nothing to build for find_string_length
+22:27:31 **** Incremental Build of configuration Debug for project find_string_length ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\find_string_length.o" "..\\src\\find_string_length.c" 
+gcc -o find_string_length.exe "src\\find_string_length.o" 
+Info: Nothing to build for find_string_length
+22:27:57 **** Incremental Build of configuration Debug for project find_string_length ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\find_string_length.o" "..\\src\\find_string_length.c" 
+gcc -o find_string_length.exe "src\\find_string_length.o" 
+Info: Nothing to build for find_string_length
+22:29:57 **** Incremental Build of configuration Debug for project find the frequency in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\frequency.o" "..\\src\\frequency.c" 
+gcc -o "find the frequency in string.exe" "src\\frequency.o" 
+Info: Nothing to build for find the frequency in string
+22:34:17 **** Rebuild of configuration Debug for project revers the string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\revers the string.o" "..\\src\\revers the string.c" 
+gcc -o "revers the string.exe" "src\\revers the string.o" 
+Info: Nothing to build for revers the string
+22:35:30 **** Incremental Build of configuration Debug for project revers the string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\revers the string.o" "..\\src\\revers the string.c" 
+gcc -o "revers the string.exe" "src\\revers the string.o" 
+Info: Nothing to build for revers the string
+Info: Nothing to build for revers the string

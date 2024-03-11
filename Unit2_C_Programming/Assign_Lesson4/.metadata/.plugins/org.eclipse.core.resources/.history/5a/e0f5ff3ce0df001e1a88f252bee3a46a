@@ -1,0 +1,44 @@
+/*
+ ============================================================================
+ Name        : find_string_length.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <string.h>
+
+
+
+int get_string_length(char str[]);
+
+int main()
+{
+    char str[100];
+    int length=0;
+
+//enter the string
+    printf("\r\nEnter The string: ");
+    gets(str);
+
+//get the length of the string.
+    length=get_string_length(str);
+
+//print the frequency
+	printf("\r\nThe length of the string is %d",length);
+
+    return 0;
+}
+
+int get_string_length(char str[]){
+	int length=0;
+
+	while(str[length]!='\0'){
+		length++;
+	}
+
+	return length;
+}

@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : insert_element_in_array.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("insert element in array"); /* prints insert element in array */
+	return EXIT_SUCCESS;
+}

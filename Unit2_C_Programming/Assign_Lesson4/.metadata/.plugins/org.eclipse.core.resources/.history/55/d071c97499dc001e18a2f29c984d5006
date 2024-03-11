@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : sum2d.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("sum 2d array"); /* prints sum 2d array */
+	return EXIT_SUCCESS;
+}
