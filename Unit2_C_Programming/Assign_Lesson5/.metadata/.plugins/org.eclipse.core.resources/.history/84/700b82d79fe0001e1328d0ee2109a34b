@@ -1,0 +1,50 @@
+/*
+ ============================================================================
+ Name        : factorial.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : Your copyright notice
+ Description : get factorial using recursion function, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+int factorial(int number);
+
+int main(void) {
+
+	int number=0;
+    int result=0;
+
+	printf("enter a positive integer: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d",&number);
+
+	if(number<0){
+		printf("error you entered a negative integer\n ");
+		printf("enter a positive integer: ");
+		fflush(stdin);
+		fflush(stdout);
+		scanf("%d",&number);
+	}
+	else if((number==0)||(number==1)){
+		printf("error you entered an integer=%d\n",number);
+		printf("enter a positive integer: ");
+		fflush(stdin);
+		fflush(stdout);
+		scanf("%d",&number);
+	}
+
+
+	return 0;
+}
+
+
+int factorial(int number){
+
+
+
+}
+

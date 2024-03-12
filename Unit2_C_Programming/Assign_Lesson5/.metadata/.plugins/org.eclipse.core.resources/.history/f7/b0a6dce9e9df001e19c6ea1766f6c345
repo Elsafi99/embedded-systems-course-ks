@@ -1,0 +1,38 @@
+/*
+ ============================================================================
+ Name        : find.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+int find_prime_numbers(int number);
+
+int main(void) {
+
+	int numbers=9,result=0;
+	result=find_prime_numbers(numbers);
+	if(result){
+		printf("number is prime");
+	}
+	else {
+    	printf("number is not prime");
+	}
+
+
+	return 0;
+}
+
+int find_prime_numbers(int number){
+	int index=0;
+	for(index=2;index<=(number/2);index++){
+		if((number%index)==0){
+			return 0;
+		}
+	}
+	return 1;
+}

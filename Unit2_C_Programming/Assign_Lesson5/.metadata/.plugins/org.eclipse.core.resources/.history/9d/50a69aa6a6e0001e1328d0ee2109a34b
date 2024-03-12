@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+float power(int exponent,float base);
+
+int main(void) {
+
+	int exponent=0;
+    float result=0;
+    float base=0;
+	printf("enter a base number: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%f",&base);
+	printf("\r\nenter a power (positive) number: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d",&exponent);
+
+	result=power(exponent,base);
+	printf("%.2f ^ %d =%f \n",base,exponent,result);
+	return 0;
+}
+
+float power(int exponent,float base){
+   float result=0;
+   if( exponent!=0){
+      result=base*(power((exponent-1),base));
+      return result;
+   }
+   return 1;
+}
+

@@ -1,0 +1,10 @@
+21:39:43 **** Clean-only build of configuration Debug for project reverse sentence using recursion ****
+rm -rf "reverse sentence using recursion.exe" reverse.d reverse.o 
+rm: cannot remove `reverse sentence using recursion.exe': Permission denied
+21:39:50 **** Rebuild of configuration Debug for project reverse sentence using recursion ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o reverse.o "..\\reverse.c" 
+gcc -o "reverse sentence using recursion.exe" reverse.o 
+Info: Nothing to build for reverse sentence using recursion
+Info: Nothing to build for reverse sentence using recursion
+Info: Nothing to build for reverse sentence using recursion
