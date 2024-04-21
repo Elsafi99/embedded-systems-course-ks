@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : EX1.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : EX1 stores student info using structure
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("EX1 student info"); /* prints EX1 student info */
+	return EXIT_SUCCESS;
+}

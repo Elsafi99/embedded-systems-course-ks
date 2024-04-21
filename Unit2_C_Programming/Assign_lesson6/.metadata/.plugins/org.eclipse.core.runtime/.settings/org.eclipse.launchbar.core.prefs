@@ -1,0 +1,6 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:EX1 student info.exe,org.eclipse.launchbar.core.descriptorType.default\:EX2_add_distance.exe,org.eclipse.launchbar.core.descriptorType.default\:add complex number.exe,org.eclipse.launchbar.core.descriptorType.default\:EX4 store info student2.exe,org.eclipse.launchbar.core.descriptorType.default\:find area.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:EX1\ student\ info.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:EX1\ student\ info.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

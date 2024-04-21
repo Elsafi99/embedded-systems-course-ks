@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;find area&apos; to &apos;EX5 find area&apos;" description="Rename resource &apos;find area&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/find area" name="EX5 find area" stamp="1713727345100" updateReferences="true"/>
+</session>

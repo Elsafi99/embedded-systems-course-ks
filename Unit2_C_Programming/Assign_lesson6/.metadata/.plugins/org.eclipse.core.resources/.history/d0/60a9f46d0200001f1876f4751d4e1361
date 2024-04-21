@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : EX1.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : EX1 stores student info using structure
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+struct Sstudent{
+
+	char name[];
+	int roll;
+	float marks;
+};
+
+int main(void) {
+
+ printf("Enter information of students:");
+
+	return 0;
+}

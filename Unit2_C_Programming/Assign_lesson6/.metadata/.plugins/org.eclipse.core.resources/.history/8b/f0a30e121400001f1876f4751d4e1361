@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : main.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : EX5 calculate area using macros
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+
+
+int main(void) {
+
+
+
+	return 0;
+}
+
+
+
+

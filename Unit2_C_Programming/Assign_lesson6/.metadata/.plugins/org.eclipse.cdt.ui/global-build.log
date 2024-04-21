@@ -1,0 +1,19 @@
+21:20:27 **** Clean-only build of configuration Debug for project find area ****
+rm -rf "find area.exe" main.o main.d 
+rm: cannot remove `find area.exe': Permission denied
+21:20:35 **** Rebuild of configuration Debug for project find area ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o "find area.exe" main.o 
+Info: Nothing to build for find area
+21:21:41 **** Incremental Build of configuration Debug for project find area ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o "find area.exe" main.o 
+Info: Nothing to build for find area
+21:22:29 **** Rebuild of configuration Debug for project EX5 find area ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o "EX5 find area.exe" main.o 
+Info: Nothing to build for EX5 find area
+Info: Nothing to build for EX5 find area

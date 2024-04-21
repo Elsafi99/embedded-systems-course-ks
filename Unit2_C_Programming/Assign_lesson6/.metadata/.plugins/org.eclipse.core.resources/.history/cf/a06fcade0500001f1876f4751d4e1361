@@ -1,0 +1,65 @@
+/*
+ ============================================================================
+ Name        : main.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : EXs add two distances inch,feet using structures
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+struct Sdistance{
+
+	float feet;
+	float inch;
+};
+
+int main(void) {
+
+  struct Sdistance distance1,distance2,result;
+
+  printf("Enter information of 1st distance:");
+  //stores the distance 1 feet
+  printf("\r\nEnter the feet:");
+  fflush(stdin);
+  fflush(stdout);
+  scanf("%f",&distance1.feet);
+  //stores the distance 1 inch
+  printf("\r\nEnter the inch:");
+  fflush(stdin);
+  fflush(stdout);
+  scanf("%d",&distance1.inch);
+
+  printf("Enter information of 2nd distance:");
+  //stores the distance 2 feet
+  printf("\r\nEnter the feet:");
+  fflush(stdin);
+  fflush(stdout);
+  scanf("%f",&distance2.feet);
+  //stores the distance 2 inch
+  printf("\r\nEnter the inch:");
+  fflush(stdin);
+  fflush(stdout);
+  scanf("%d",&distance2.inch);
+
+  //calculation the result
+  result.feet=distance1.feet+distance2.feet;
+  result.inch=distance1.inch+distance2.inch;
+  //feet=12 inch
+  if(result.inch>=12){
+	  result.feet++;
+	  result.inch-=12;
+  }
+
+  //display result information.
+  printf("\r\nDThe sum of distance=%.2ffeet,%.2finch",result.feet,result.inch);
+
+
+
+
+	return 0;
+}
+
+

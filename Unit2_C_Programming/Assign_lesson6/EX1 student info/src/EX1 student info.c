@@ -1,0 +1,50 @@
+/*
+ ============================================================================
+ Name        : EX1.c
+ Author      : elsafi
+ Version     :
+ Copyright   : Your copyright notice
+ Description : EX1 stores student info using structure
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+struct Sstudent{
+
+	char name[100];
+	int roll;
+	float marks;
+};
+
+int main(void) {
+
+  struct Sstudent S;
+
+  printf("Enter information of students:");
+  //stores student name
+  printf("\r\nEnter the name:");
+  fflush(stdin);
+  fflush(stdout);
+  scanf("%s",&S.name);
+  //store student roll
+  printf("\r\nEnter the roll number:");
+  fflush(stdin);
+  fflush(stdout);
+  scanf("%d",&S.roll);
+  //store student marks
+  printf("\r\nEnter the marks:");
+  fflush(stdin);
+  fflush(stdout);
+  scanf("%f",&S.marks);
+
+  //display student information.
+  printf("\r\nDisplaying the information");
+  printf("\r\nName:%s",S.name);
+  printf("\r\nRoll:%d",S.roll);
+  printf("\r\nMarks:%.2f",S.marks);
+
+
+
+	return 0;
+}
