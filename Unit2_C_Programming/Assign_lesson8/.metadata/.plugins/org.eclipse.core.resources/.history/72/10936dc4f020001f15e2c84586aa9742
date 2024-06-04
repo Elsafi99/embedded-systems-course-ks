@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : Ex_1_demonstrate_pointer_handle.c
+ Author      : ELSAFI
+ Version     : v0.0
+ Copyright   : open source
+ Description : demonstrate how to handle a c code for pointer assign and operations.
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("demonstrate c pointer handle"); /* prints demonstrate c pointer handle */
+	return EXIT_SUCCESS;
+}

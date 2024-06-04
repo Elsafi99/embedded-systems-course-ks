@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : Ex_1_demonstrate_pointer_handle.c
+ Author      : elsafi
+ Version     :
+ Copyright   : open source
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("demonstrate c pointer handle"); /* prints demonstrate c pointer handle */
+	return EXIT_SUCCESS;
+}

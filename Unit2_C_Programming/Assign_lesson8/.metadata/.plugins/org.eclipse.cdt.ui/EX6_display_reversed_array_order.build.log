@@ -1,0 +1,7 @@
+22:06:57 **** Incremental Build of configuration Debug for project EX6_display_reversed_array_order ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o reverse_array.o "..\\reverse_array.c" 
+gcc -o EX6_display_reversed_array_order.exe reverse_array.o 
+
+22:06:57 Build Finished (took 392ms)
+

@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : EX5_Pointer_array_structure.c
+ Author      : ELSAFI
+ Version     : v0.0
+ Copyright   : open source
+ Description : coding Pointer to array which its elements are pointers to structure
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+struct data_employee{
+	char* Name;
+	int ID;
+};
+
+
+int main(void) {
+
+
+
+	return 0;
+}

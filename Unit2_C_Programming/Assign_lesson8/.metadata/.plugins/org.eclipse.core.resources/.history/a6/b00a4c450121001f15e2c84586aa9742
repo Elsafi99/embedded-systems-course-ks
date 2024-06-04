@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : Ex3_reverse_string.c
+ Author      : ELSAFI
+ Version     : v0.0
+ Copyright   : open source
+ Description : reverse a string order using pointer.
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+//declare an array for input string.
+	char str_input[100];
+//declare an array for reverse string .
+	char str_reverse[100];
+//declare a wild pointers for strings.
+    char* strp;
+    char* strp_reverse;
+//assign pointers with array of input string and for reverse string .
+    strp=str_input;
+    strp_reverse=str_reverse;
+//initialise input string.
+
+printf("\r\nPointer:Print a string in reverse order:");
+printf("\r\n----------------------------------------------");
+printf("\r\nInput a string:");
+fflush(stdin);
+fflush(stdout);
+scanf("%s",str_input);
+
+
+
+	return 0;
+}

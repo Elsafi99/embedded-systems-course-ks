@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : EX5_Pointer_array_structure.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : open source
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("pointer to array its element pointers to structure"); /* prints pointer to array its element pointers to structure */
+	return EXIT_SUCCESS;
+}

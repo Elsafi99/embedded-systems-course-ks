@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Ex_1_demonstrate_pointer_handle.c
+ Author      : ELSAFI
+ Version     : v0.0
+ Copyright   : open source
+ Description : demonstrate how to handle a c code for pointer assign and operations.
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+//declare a wild pointer till now.
+	int* ab;
+//declare and initialise variable .
+	int m=29;
+//display the address and the value assigned to variable m.
+	printf("Address of m=%x",&m);
+	printf("Value of m=%d",m);
+
+
+
+
+	return 0;
+}

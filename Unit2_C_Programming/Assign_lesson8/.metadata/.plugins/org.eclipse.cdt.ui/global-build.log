@@ -1,0 +1,62 @@
+21:48:00 **** Clean-only build of configuration Debug for project EX4_reverse_array ****
+rm -rf EX4_reverse_array.exe src/EX4_reverse_array.d src/EX4_reverse_array.o 
+rm: cannot remove `EX4_reverse_array.exe': Permission denied
+21:48:09 **** Rebuild of configuration Debug for project EX4_reverse_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4_reverse_array.o" "..\\src\\EX4_reverse_array.c" 
+gcc -o EX4_reverse_array.exe "src\\EX4_reverse_array.o" 
+Info: Nothing to build for EX4_reverse_array
+21:48:54 **** Incremental Build of configuration Debug for project EX4_reverse_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4_reverse_array.o" "..\\src\\EX4_reverse_array.c" 
+..\src\EX4_reverse_array.c: In function 'main':
+..\src\EX4_reverse_array.c:59:7: warning: assignment to 'int (*)[15]' from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+   59 | pt_rev=rev_array;
+      |       ^
+gcc -o EX4_reverse_array.exe "src\\EX4_reverse_array.o" 
+21:49:14 **** Incremental Build of configuration Debug for project EX4_reverse_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4_reverse_array.o" "..\\src\\EX4_reverse_array.c" 
+gcc -o EX4_reverse_array.exe "src\\EX4_reverse_array.o" 
+Info: Nothing to build for EX4_reverse_array
+21:50:37 **** Incremental Build of configuration Debug for project EX4_reverse_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4_reverse_array.o" "..\\src\\EX4_reverse_array.c" 
+gcc -o EX4_reverse_array.exe "src\\EX4_reverse_array.o" 
+Info: Nothing to build for EX4_reverse_array
+21:51:54 **** Incremental Build of configuration Debug for project EX4_reverse_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4_reverse_array.o" "..\\src\\EX4_reverse_array.c" 
+gcc -o EX4_reverse_array.exe "src\\EX4_reverse_array.o" 
+Info: Nothing to build for EX4_reverse_array
+21:54:53 **** Incremental Build of configuration Debug for project EX4_reverse_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4_reverse_array.o" "..\\src\\EX4_reverse_array.c" 
+gcc -o EX4_reverse_array.exe "src\\EX4_reverse_array.o" 
+Info: Nothing to build for EX4_reverse_array
+21:59:38 **** Incremental Build of configuration Debug for project EX4_reverse_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX4_reverse_array.o" "..\\src\\EX4_reverse_array.c" 
+gcc -o EX4_reverse_array.exe "src\\EX4_reverse_array.o" 
+Info: Nothing to build for EX4_reverse_array
+22:04:43 **** Rebuild of configuration Debug for project EX6_display_reversed_array_order ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o reverse_array.o "..\\reverse_array.c" 
+..\reverse_array.c: In function 'main':
+..\reverse_array.c:22:5: warning: unused variable 'length' [-Wunused-variable]
+   22 | int length=0;
+      |     ^~~~~~
+gcc -o EX6_display_reversed_array_order.exe reverse_array.o 
+22:04:51 **** Incremental Build of configuration Debug for project EX6_display_reversed_array_order ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o reverse_array.o "..\\reverse_array.c" 
+gcc -o EX6_display_reversed_array_order.exe reverse_array.o 
+22:06:01 **** Incremental Build of configuration Debug for project EX6_display_reversed_array_order ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o reverse_array.o "..\\reverse_array.c" 
+gcc -o EX6_display_reversed_array_order.exe reverse_array.o 
+Info: Nothing to build for EX6_display_reversed_array_order
+22:06:57 **** Incremental Build of configuration Debug for project EX6_display_reversed_array_order ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o reverse_array.o "..\\reverse_array.c" 
+gcc -o EX6_display_reversed_array_order.exe reverse_array.o 

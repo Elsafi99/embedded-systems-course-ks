@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : EX2_print_alphabets.c
+ Author      : ELSAFI
+ Version     :
+ Copyright   : open source
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("Print alphabets by pointer"); /* prints Print alphabets by pointer */
+	return EXIT_SUCCESS;
+}

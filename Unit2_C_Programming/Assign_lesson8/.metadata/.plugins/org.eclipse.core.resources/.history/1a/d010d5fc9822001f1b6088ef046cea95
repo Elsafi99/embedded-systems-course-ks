@@ -1,0 +1,44 @@
+/*
+ ============================================================================
+ Name        : EX4_reverse_array.c
+ Author      : ELSAFI
+ Version     : v0.0
+ Copyright   : open source
+ Description : Reverse array using pointer
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+int main(void) {
+
+int array[15];
+int reverse_array[15];
+int size=0;
+int index=0;
+//display and get array size
+printf("\r\nInput the number of elements to store in the array(max=15):");
+fflush(stdin);
+fflush(stdout);
+scanf("%d",&size);
+//test the array size and ensure that is less or equal 15.
+if(size>15){
+	printf("\r\nError the array size must be less or equal 15");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d",&size);
+}
+//get the array elements(fill the array)
+printf("\r\nInput %d number of elements in the array:",size);
+for(index=0;index<(size-1);index++){
+    printf("\r\nElement-%d:",(index+1));
+    fflush(stdin);
+    fflush(stdout);
+    scanf("%d",&array[index]);
+}
+
+
+
+
+	return 0;
+}
